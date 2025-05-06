@@ -1,7 +1,6 @@
 let account = document.getElementById("input1");
 let password = document.getElementById("input2");
 let code = document.getElementById("input3");
-
 let  hint ='';
 document.getElementById("login").addEventListener("click", function(){
     if (account.value.trim() === "" ) {
