@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="loginPage1">Sign in to GitHub-Github</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="github.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="logo" id="loginPage">
+        <img src="github.jpg" alt="github" >
+        <p id="title">Sign in to GitHub</p>
+        <div class="containerMain">
+            <p>Username or email address</p>
+            <input type="text" id="input1" class="input">
+            <div id="Password">
+                <p >Password</p>
+                <p id="Forgot">Forgot password?</p>
+            </div>
+            <input type="password" id="input2" class="input">
+            <button id="login" >Sign in</button>
+        </div>
+        <div class="container2">
+            <p id="pass">Sign in with a passkey</p>
+            <div id="Create">
+                <p>New to GitHub?</p>
+                <p id="Create1">Create an account</p>
+            </div>
+        </div>
+        <div class="container3">
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Docs</p>
+            <p>Contact GitHub Support</p>
+            <p>Mange cookies</p>
+            <p>do not share my personal information</p>
+        </div>
+
+    </div>
+    <div id="verifyPage" style="display: none">
+        <div class="logo">
+            <img src="github.jpg" alt="github"  >
+            <p id="title1">Two-factor authentication</p>
+            <div class="containerMain">
+                <img src="phone.png" alt="phone" id="phone">
+                <p id="Auth">Authentication code</p>
+                <input type="text" placeholder="XXXXXX" id="input3" class="input">
+                <button id="verifyBtn" type="button">Verify</button>
+                <div id="Totp">
+                    <p>Open your two-factor authenticator</p>
+                    <p>(TOTP) app or browser extension to view</p>
+                    <p>your authentication code.</p>
+                </div>
+            </div>
+            <div class="container2">
+                <p id="Having">Having problems?</p>
+                <p id="FA">Use a recovery code or begin 2FA account recovery</p>
+            </div>
+            <div class="container3">
+                <p>Terms</p>
+                <p>Privacy</p>
+                <p>Docs</p>
+                <p>Contact GitHub Support</p>
+                <p>Mange cookies</p>
+                <p>do not share my personal information</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

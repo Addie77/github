@@ -1,0 +1,222 @@
+/*新增白色畫布*/
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo p {
+    font-family: "Inter" , sans-serif;
+}
+#title {
+    /*字體大小*/
+    font-size: 22px;
+    /*字體粗細*/
+    font-weight: 195;
+    /*上方間距*/
+    margin-top: 25px;
+
+}
+#title1 {
+    /*字體大小*/
+    font-size: 21px;
+    /*字體粗細*/
+    font-weight: 195;
+    /*上方間距*/
+    margin-top: 25px;
+}
+.logo img {
+    /*圖片大小*/
+    width: 57px;
+    margin-top: 20px;
+}
+
+/*新增灰色區塊*/
+.containerMain {
+    background-color: #f4f6f8;
+    /*圓角*/
+    border-radius: 5px;
+    /*邊框*/
+    border: 1px solid #dddcdc;
+    /*內邊距*/
+    padding: 5px;
+    /*寬度、高度*/
+    width: 276px;
+    max-height: 510px;
+}
+.containerMain p{
+    font-family: "Inter" , sans-serif;
+    /*字體大小*/
+    font-size: 13px;
+    /*字體粗細*/
+    font-weight: 350;
+    /*上方間距*/
+    margin-top: 13px;
+    /*左方間距*/
+    margin-left: 12px;
+}
+#Password{
+    display: flex;
+    /*上方間距*/
+    margin-top: 0;
+    gap: 90px;
+}
+#Forgot{
+    color: #186ed6;
+    /*字體大小*/
+    font-size: 11.5px;
+    cursor: pointer;
+}
+.input {
+    /*圓角*/
+    border-radius: 8px;
+    /*邊框*/
+    border: 1px solid #dddcdc;
+    /*左邊距*/
+    padding-left: 11px;
+    /*左方間距*/
+    margin-left: 12px;
+    margin-bottom: 5px;
+    /*寬度、高度*/
+    width: 239px;
+    height: 29px;
+
+}
+.input:focus {
+    /*邊框顏色*/
+    border: 3px solid #186ed6;
+    outline: none;
+}
+.containerMain button {
+    /*圓角*/
+    border-radius: 6px;
+    /*邊框*/
+    border: 1px solid #dddcdc;
+    /*背景顏色*/
+    background-color: #1f873d;
+    /*字體顏色*/
+    color: #ffffff;
+    /*字體大小*/
+    font-size: 13px;
+    font-weight: bold;
+    /*左方間距*/
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    /*寬度、高度*/
+    width: 248px;
+    height: 33px;
+    cursor: pointer;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c3c1c1;
+    border-radius: 6px;
+    padding: 5px;
+    /*上方間距*/
+    margin-top: 15px;
+    width: 276px;
+    max-height: 380px;
+}
+#pass {
+    display:flex;
+    justify-content: center;
+    /*上方間距*/
+    margin-top: 15px;
+    color: #186ed6;
+    font-weight: 580;
+    margin-bottom: 5px;
+
+}
+#pass:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#Create {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    gap: 4px;
+
+}
+#Create1 {
+    color: #186ed6;
+}
+#Create1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container2 p {
+    font-family: "Inter" , sans-serif;
+    /*字體大小*/
+    font-size: 14px;
+    /*字體粗細*/
+    font-weight: 350;
+    margin-top: 3px;
+
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    /*上方間距*/
+    margin-top: 60px;
+    gap: 20px;
+}
+.container3 p {
+    font-family: "Inter" , sans-serif;
+    /*字體大小*/
+    font-size: 11px;
+    /*字體粗細*/
+    font-weight: 550;
+    color: #7e7d7d;
+}
+.container3 p:hover {
+    color: #186ed6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#phone {
+    display: block;
+    width: 24px;
+    /*水平置中*/
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#Auth {
+    font-family: "Inter" , sans-serif;
+    font-weight: 350;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+#verifyBtn {
+    width: 255px;
+    margin-bottom: 15px;
+}
+#Totp p{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+#FA {
+    color: #186ed6;
+    font-weight: 350;
+
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 0;
+}
+#FA:hover {
+    text-decoration: underline;
+}
+#Having{
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 10px;
+}
